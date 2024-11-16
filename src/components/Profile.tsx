@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import { FaXTwitter } from "react-icons/fa6";
+
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaCode } from "react-icons/fa6";
 
@@ -63,8 +63,6 @@ export const Profile = () => {
                     </Button>
                     <div className="mt-4 flex flex-col space-y-2 border-t border-border pt-4 w-full">
                         {socials.map((s, i) => {
-                            const parts = s.link.split('/')
-                            const username = parts[parts.length - 1]
                             return (
                                 <Link
                                     key={i}
