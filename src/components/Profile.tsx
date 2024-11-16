@@ -55,11 +55,12 @@ export const Profile = () => {
                         {/* or link to schedule a meeting using Calendly or Cal*/}
                         <Link
                             target="_blank"
-                            href="https://drive.google.com/file/d/1WwfufSF4qYiWIiubSf8zePpnbHepeyqR/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1q1cqEI2_gdy6uXHfgXUMJ8Y7trZ9Db_J/view?usp=sharing"
                             className="font-semibold"
                         >
                             CONTACT ME
                         </Link>
+                        
                     </Button>
                     <div className="mt-4 flex flex-col space-y-2 border-t border-border pt-4 w-full">
                         {socials.map((s, i) => {
