@@ -10,7 +10,7 @@ const skills = ["TypeScript", "JavaScript", "Python", "Java",  "C++", "C", "SQL"
 
 export const Skills = () => {
     return (
-        <Card className="mt-6">
+        <Card className="mt-6  bg-white/30 backdrop-filter backdrop-blur-2xl bg-opacity-20 border border-gray-100 ">
             <CardHeader>
                 <CardTitle>Skills</CardTitle>
             </CardHeader>

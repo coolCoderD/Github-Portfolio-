@@ -31,7 +31,7 @@ const socials = [
 
 export const Profile = () => {
     return (
-        <Card>
+        <Card className=" bg-white/30 backdrop-filter backdrop-blur-2xl bg-opacity-20 border border-gray-100 ">
             <CardContent className="pt-6">
                 <div className="flex flex-col items-start gap-2 ">
                     <div className="flex flex-row md:flex-col items-center md:items-start w-full gap-4">

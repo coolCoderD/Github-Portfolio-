@@ -52,7 +52,7 @@ export const Projects = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
                 {projects.map((p, i) => (
-                    <Card key={i}>
+                    <Card key={i} className=" bg-white/30 backdrop-filter backdrop-blur-2xl bg-opacity-20 border border-gray-100 ">
                         <CardContent className="pt-6 h-full">
                             <div className="flex flex-col h-full">
                                 <div className="flex items-center justify-between">
