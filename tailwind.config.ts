@@ -57,13 +57,6 @@ const config: Config = {
         sm: "calc(var(--radius) - 4px)",
       },
       animation: {
-        first: "moveVertical 30s ease infinite",
-        second: "moveInCircle 20s reverse infinite",
-        third: "moveInCircle 40s linear infinite",
-        fourth: "moveHorizontal 40s ease infinite",
-        fifth: "moveInCircle 20s ease infinite",
-      },
-      animation: {
         blob: 'blob 7s infinite',
       },
       keyframes: {
