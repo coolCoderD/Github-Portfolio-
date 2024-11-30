@@ -28,12 +28,13 @@ export const projects = [
         link: "https://shirt3d98.netlify.app/",
         github:"https://github.com/coolCoderD/Fabrica-3D",
     },
-    // {
-    //     title: "AI Chatbot",
-    //     description: "A machine learning powered chatbot using Python and TensorFlow",
-    //     tech: "Python",
-    //     link: "#",
-    // },
+    {
+        title: "Hack Prodigies",
+        description: "Hack Prodigies a platform that connects developers through hackathons, events, and coding competitions.",
+        tech: "MERN",
+        link: "https://hackprodigies.vercel.app/",
+    },
+
 ]
 
 const techColors = {
@@ -63,9 +64,11 @@ export const Projects = () => {
                                 >
                                     {p.title}
                                 </Link>
+                              {p.github &&
                                 <Link href={p.github} target="_blank"  rel="noopener noreferrer">
                                 <FaGithub className="inline-block cursor-pointer size-5 ml-2" />
                                 </Link>
+}
                                 </div>
                                 <p className="text-sm text-muted-foreground mt-1 mb-4">
                                     {p.description}
