@@ -55,7 +55,7 @@ export const Profile = () => {
                         {/* or link to schedule a meeting using Calendly or Cal*/}
                         <Link
                             target="_blank"
-                            href="https://drive.google.com/file/d/1q1cqEI2_gdy6uXHfgXUMJ8Y7trZ9Db_J/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1UT-mIf0yLG-gkC4BqcnxM-3KAD9hMv2y/view?usp=sharing"
                             className="font-semibold"
                         >
                             CONTACT ME
