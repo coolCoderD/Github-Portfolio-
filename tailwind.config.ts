@@ -58,6 +58,7 @@ const config: Config = {
       },
       animation: {
         blob: 'blob 7s infinite',
+        enhancedPulse: 'enhancedPulse 2s ease-in-out infinite',
       },
       keyframes: {
         blob: {
@@ -74,6 +75,10 @@ const config: Config = {
             transform: 'tranlate(0px, 0px) scale(1)',
           },
         },
+        enhancedPulse: {
+          '0%, 100%': { transform: 'scale(1)', opacity: '1' },
+          '50%': { transform: 'scale(1.2)', opacity: '0.7' },
+      },
       },
     },
   },

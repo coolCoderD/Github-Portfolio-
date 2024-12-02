@@ -36,12 +36,12 @@ export const Profile = () => {
                 <div className="flex flex-col items-start gap-2 ">
                     <div className="flex flex-row md:flex-col items-center md:items-start w-full gap-4">
                         <Image
-                            width={200}
-                            height={200}
+                            width={600}
+                            height={600}
                             quality={100}
                             src="https://res.cloudinary.com/drts3ztiy/image/upload/v1731739247/Open_Peeps_-_Avatar_fbephv.png"
                             alt="Profile Picture"
-                            className="rounded-full size-12 md:w-full h-auto object-cover border-2"
+                            className="rounded-full  size-12 md:w-full h-auto object-cover"
                         />
                         <div className="flex flex-col items-start justify-center">
                             <h1 className="font-bold md:mt-4 text-xl md:text-2xl">Diksha Sharma</h1>
