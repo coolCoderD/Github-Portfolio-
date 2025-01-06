@@ -31,7 +31,7 @@ const socials = [
 
 export const Profile = () => {
     return (
-        <Card className=" bg-white/30 backdrop-filter backdrop-blur-2xl bg-opacity-20 border border-gray-100 ">
+        <Card className=" bg-background/10 backdrop-filter backdrop-blur-2xl bg-opacity-20 border border-gray-100 ">
             <CardContent className="pt-6">
                 <div className="flex flex-col items-start gap-2 ">
                     <div className="flex flex-row md:flex-col items-center md:items-start w-full gap-4">
@@ -55,7 +55,7 @@ export const Profile = () => {
                         {/* or link to schedule a meeting using Calendly or Cal*/}
                         <Link
                             target="_blank"
-                            href="https://drive.google.com/file/d/1UT-mIf0yLG-gkC4BqcnxM-3KAD9hMv2y/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1gQipreimUeJN2Wa4q3XqBF7euwFU_AkV/view?usp=sharing"
                             className="font-semibold"
                         >
                             CONTACT ME
