@@ -53,13 +53,13 @@ export const Profile = () => {
                     <Button className="mt-4 w-full" asChild>
                         {/* TODO: Add resume link */}
                         {/* or link to schedule a meeting using Calendly or Cal*/}
-                        <Link
+                        {/* <Link
                             target="_blank"
                             href="https://drive.google.com/file/d/1gQipreimUeJN2Wa4q3XqBF7euwFU_AkV/view?usp=sharing"
                             className="font-semibold"
-                        >
+                        > */}
                             CONTACT ME
-                        </Link>
+                        {/* </Link> */}
                         
                     </Button>
                     <div className="mt-4 flex flex-col space-y-2 border-t border-border pt-4 w-full">
